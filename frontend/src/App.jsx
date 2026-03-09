@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback } from "react";
 import { Upload, Send, FileText, Loader2, Zap, X, ChevronDown, ChevronUp } from "lucide-react";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://smart-doc-qa-backend.onrender.com";
 const NAMESPACE = "default";
 
 export default function App() {
